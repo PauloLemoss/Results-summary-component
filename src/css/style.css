@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 100%, 96%);
+    width: 100%;
+    height: auto;
+     font-family: "Hanken Grotesk", serif;;
+}
+main{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px;
+}
+main .result{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(252, 100%, 67%);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 300px;
+    height: 370px;
+    padding: 20px;
+    margin-left: 80px;
+}
+main .result .result-title{
+    color: hsl(241, 100%, 89%);
+    padding: 20px;
+}
+main .result .score{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+main .result .score .score-title{
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 56px;
+}
+main .result .score .score-subtitle{
+    color: hsl(241, 100%, 89%);
+}
+main .result .text-message{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main .result .text-message .text-title{
+    color:  hsl(0, 0%, 100%);
+    padding: 7px;
+}
+
+main .result .text-message .text-paragraph{
+    color: hsl(241, 100%, 89%);
+    line-height: 20px;
+}
+
+main .summary{
+       background-color: hsl(0, 0%, 100%);
+       border-radius: 15px;
+       box-shadow: 6px 6px 0px white;
+       width: 100%;
+       max-width: 300px;
+       padding: 20px;
+       height: 370px;
+       margin-right: 40px;
+}
+main .summary .summary-title{
+    padding: 10px;
+}
+
+main .summary .list-icon{
+    padding: 20px;
+}
+li{
+   
+   padding: 20px;
+   margin: 15px;
+}
+main .summary .list-icon .icon-reaction{
+    
+    display: flex;
+    gap: 10px;
+    color: hsl(0, 100%, 67%);
+    background-color: #FFCCCB;
+    padding: 10px;
+    border-radius: 10px;
+}
+main .summary .list-icon .icon-memory{
+     
+    display: flex;
+    gap: 10px;
+    color: hsl(39, 100%, 56%);
+    background-color: #FFFFE0;
+    padding: 10px;
+    border-radius: 10px;
+}
+main .summary .list-icon .icon-verbal{
+     
+    display: flex;
+    gap: 10px;
+    color: hsl(166, 100%, 37%);
+    background-color: #D1FFBD;
+    padding: 10px;
+    border-radius: 10px;
+}
+main .summary .list-icon .icon-visual{
+     
+    display: flex;
+    gap: 10px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(241, 100%, 89%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.black-strong{
+    color: black;
+}
+
+.gray-strong{
+   color: gray;
+}
+main .summary .btn{
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 220px;
+    margin-left: 35px;
+   text-align: center;
+   cursor: pointer;
+}
+
+main .summary .btn:hover{
+    background-color: hsl(241, 81%, 54%);
+    transition: background-color 0.5s ease, color 0.5 ease;
+}
+
+main .summary .btn .button{
+   border: none;
+   cursor: pointer;
+   background: none;
+}
+
+
+
+
+
+
+
